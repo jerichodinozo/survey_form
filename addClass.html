@@ -1,0 +1,82 @@
+<!--@jerichodinozo-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="format.css">
+        <input type="submit" value="Back" class="send-btn" id="back_btn">
+    </head>
+    <body id="add_class_body">
+        <div id="class_section">
+            <form class="add-class-form">
+                <h1 id="add_title">Add a class</h1>
+                <section id="course_name_section" style="text-align:center">
+                    <label class="text-field">
+                        <input type="text" id="name" name="name" required/>
+                        <span class="placeholder">Enter course name</span>
+                    </label>
+                </section>    
+                <section id="course_code_section" style="text-align:center">
+                    <label class="text-field">
+                        <input type="text" id="code" name="code" required/>
+                        <span class="placeholder">Enter course code</span>
+                    </label>
+                </section>
+                <section id="cred_section" style="text-align:center">
+                    <label class="text-field">
+                        <input type="text" id="num_cred" name="num_cred" required/>
+                        <span class="placeholder">Enter number of credits</span>
+                    </label>
+                </section>
+
+                <section id="from_to_section" style="text-align:center">
+                    <label class="text-field" id="from_input">
+                        <input type="text" id="from_time" name="from_time" required/>
+                        <span class="placeholder">From</span>
+                    </label>
+                    <label for="from_ampm"></label>
+                        <select name="AM/PM" id="from_ampm">
+                            <option value="am">am</option>
+                            <option value="pm">pm</option>
+                        </select>
+                    <label class="text-field" id="to_input">
+                        <input type="text" id="to_time" name="to_time" required/>
+                        <span class="placeholder">To</span>
+                    </label>
+                    <label for="to_ampm"></label>
+                    <select name="AM/PM" id="to_ampm">
+                        <option value="am">am</option>
+                        <option value="pm">pm</option>
+                    </select><br>
+                </section>
+                <section id="days_selection">
+                    <label>Days:</label><br>
+                    <input type="checkbox" id="Monday" name="Monday" value="Monday">
+                    <label for="Monday"> monday</label><br>
+                    <input type="checkbox" id="Tuesday" name="Tuesday" value="Tuesday">
+                    <label for="Tuesday"> tuesday</label><br>
+                    <input type="checkbox" id="Wednesday" name="Wednesday" value="Wednesday">
+                    <label for="Wednesday"> wednesday</label><br>
+                    <input type="checkbox" id="Thursday" name="Thursday" value="Thursday">
+                    <label for="Thursday"> thursday</label><br>
+                    <input type="checkbox" id="Friday" name="Friday" value="Friday">
+                    <label for="Friday"> friday</label><br>
+                </section>
+                <section id="span_section">
+                    <label>Span:</label><br>
+                    <input type="radio" id="fall" name="fall_term" value="fall">
+                    <label for="fall">fall</label><br>
+                    <input type="radio" id="winter" name="winter_term" value="winter">
+                    <label for="winter">winter</label><br>
+                    <input type="radio" id="all-year" name="all_year" value="all-year">
+                    <label for="all-year">all-year</label><br>
+                </section>
+                
+                <input type="submit" value="Done" class="send-btn">
+            </form>
+        </div>
+    </body>
+    <footer>
+        <input type="submit" value="Help" class="send-btn" id="help_btn">
+        <input type="submit" value="Settings" class="send-btn" id="settings_btn">
+    </footer>
+</html>

@@ -1,0 +1,163 @@
+@import url(https://fonts.googleapis.com/css?family=Arimo);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+body {
+    font-family: Georgia, Times, serif;
+    color: purple;
+    background-color: white;
+}
+
+/*@jerichodinozo*/
+    
+#add_title {
+    font-family: Roboto;
+    color: #aaa;
+    text-align: center;
+    font-size: 30px;
+}
+#add_class_body {
+    background-color: #f8f8f8;
+}
+
+label {
+    font-family: Roboto;
+    color: black;
+    font-size:25px;
+}
+
+.send-btn {
+    width: 50px;
+    height: 25px;
+    border-radius: 10px;
+    border: none;
+    background: #aaa;
+    color: white;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 1;
+    transition: transform 250ms;
+    cursor: pointer;
+    margin: -1 auto;
+    float: right;
+}
+
+#from_input input, #to_input input {
+    width: 55px;
+}
+
+.text-field {
+    position: relative;
+    font-size: 14px;
+    padding-top: 20px;
+    margin-bottom: 5px;
+}
+
+.text-field input{
+    border: none;
+    -webkit-appearance:none;
+    -ms-appearance: none;
+    -moz-appearance:none;
+    appearance: none;
+    background: #f2f2f2;
+    padding: 12px;
+    border-radius: 3px;
+    width: 250px;
+    outline:none;
+    font-size:14px;
+}
+
+
+.text-field .placeholder {
+    font-family: Roboto;
+    position: absolute;
+    left: 12px;
+    top: calc(50% + 10px);
+    transform: translateY(-50%);
+    color: #aaa;
+    transition: 
+        top 0.3s ease,
+        font-size 0.3s ease,
+        color 0.3s ease;
+}
+
+.text-field input:valid + .placeholder,
+.text-field input:focus + .placeholder {
+    top: 10px;
+    font-size: 10px;
+    color: #222;
+}
+
+.add-class-form {
+    max-width: 70%;
+    margin: 3.5rem auto;
+    /*border: 2px solid #aaa;*/
+    background-color: rgb(245, 244, 244);
+    border-radius: 20px;
+    padding: 4rem;
+}
+
+#days_selection, #span_section {
+    background: #f2f2f2;
+    border-radius:3px;
+    margin: 1rem 150px;
+    margin: auto;
+    width: 20%;
+}
+
+#days_selection label, #span_section label {
+    font-size: 14px;
+    color: #aaa;
+}
+
+#days_selection label:hover, 
+#span_section label:hover {
+    color:black;
+}
+
+.send-btn:hover {
+    transform: translateY(-10px);
+    background: black;
+}
+
+#settings_btn, #help_btn {
+    float: left;
+    margin-top: 2rem;
+    margin-left: 10px;
+}
+
+#back_btn {
+    float: left;
+    margin-top: -2rem;
+}
+
+select {
+    border: none;
+    background: transparent;
+}
+
+.subpageTitle {
+    text-align: center;
+    font-family: Arimo;
+    font-weight: bold;
+    color: #aaa;
+    font-size: 60px;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.sectionTitle {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 30px;
+}
+
+.circle {
+    background: #D3D3D3;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+
+/*@jerichodinozo*/
